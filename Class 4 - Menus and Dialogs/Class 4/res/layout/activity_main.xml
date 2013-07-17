@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/dialogs"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Dialogs" />
+
+    <Button
+        android:id="@+id/menues"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/dialogs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Menus" />
+    
+    <TextView 
+        android:id="@+id/contextMenuTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Long click here to create context menu"
+        android:gravity="center"
+        android:layout_below="@id/menues"
+        android:layout_marginTop="20dp"
+        />
+    
+    <TextView 
+        android:id="@+id/notification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Click here to create notification"
+        android:gravity="center"
+        android:layout_below="@id/contextMenuTextView"
+        android:layout_marginTop="20dp"
+        />
+    
+    <Button
+        android:id="@+id/progressDialog"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/notification"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="ProgressDialog" />
+    
+    
+
+</RelativeLayout>
