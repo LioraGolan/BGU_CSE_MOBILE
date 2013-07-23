@@ -7,6 +7,7 @@ Use this repository and the GIT platform to collaborate your code with your frie
 Useful links and tools:
 GIT tutorial - http://www.vogella.com/articles/Git/article.html
 GIT Bash client - http://git-scm.com/
+Try GIT online - http://try.github.io/levels/1/challenges/7
 Beyond compare - http://www.scootersoftware.com/
 
 
